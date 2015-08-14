@@ -14,4 +14,7 @@
         'end': '\\*/'
         'name': 'comment.block.avdl'
     }
+    {
+        'include': '#strings'
+    }
 ]
