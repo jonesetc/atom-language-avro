@@ -8,18 +8,12 @@
 'patterns': [
     {
         'begin': '//'
-        # 'beginCaptures':
-        #   '0':
-        #     'name': 'comment.line.double-slash.avdl'
         'end': '\\n'
         'name': 'comment.line.double-slash.avdl'
     }
-    # {
-    #     'begin': '/\*'
-    #     'beginCaptures':
-    #       '0':
-    #         'name': 'punctuation.definition.comment.python'
-    #     'end': '\*/'
-    #     'name': 'comment.line.block'
-    # }
+    {
+        'begin': '/\*'
+        'end': '\*/'
+        'name': 'comment.line.block.avdl'
+    }
 ]
