@@ -12,8 +12,8 @@
         'name': 'comment.line.double-slash.avdl'
     }
     {
-        'begin': '/\*'
-        'end': '\*/'
+        'begin': '\/\*'
+        'end': '\*\/'
         'name': 'comment.line.block.avdl'
     }
 ]
