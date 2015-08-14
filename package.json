@@ -1,0 +1,23 @@
+{
+  "name": "atom-language-avro",
+  "version": "0.0.1",
+  "description": "Syntax highlighting for Apache Avro IDL files",
+  "main": "index.coffee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonesetc/atom-language-avro.git"
+  },
+  "keywords": [
+    "atom",
+    "avro",
+    "syntax-highlighting",
+    "IDL",
+    "avdl"
+  ],
+  "author": "Kyle Jones <kyle@jonesetc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonesetc/atom-language-avro/issues"
+  },
+  "homepage": "https://github.com/jonesetc/atom-language-avro#readme"
+}

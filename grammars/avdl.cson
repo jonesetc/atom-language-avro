@@ -1,0 +1,17 @@
+'scopeName': 'source.avdl'
+'name': 'Avro IDL (avdl)'
+'fileTypes': [
+    'avdl'
+]
+'foldingStartMarker': '\{\s*$'
+'foldingStopMarker': '^\s*\}'
+'patterns': [
+    {
+        'begin': '//'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.comment.python'
+        'end': '\\n'
+        'name': 'comment.line.double-slash.python'
+      }
+]
