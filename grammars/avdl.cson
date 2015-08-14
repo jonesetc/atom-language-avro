@@ -19,6 +19,15 @@
         'end': '"'
         'name': 'string.quoted.double.avdl'
     }
+    {
+        'match': '\\b(record)\\s+(\\w+(?:\\.\\w*)?)'
+        'captures':
+            '1':
+                'name': 'storage.type.class.avdl'
+            '2':
+                'name': 'entity.name.type.js'
+        'name': 'meta.class.avdl'
+    }
 ]
 # 'repository':
 #     'numbers':
