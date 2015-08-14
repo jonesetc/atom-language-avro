@@ -3,8 +3,6 @@
 'fileTypes': [
     'avdl'
 ]
-'foldingStartMarker': '\{\s*$'
-'foldingStopMarker': '^\s*\}'
 'patterns': [
     {
         'begin': '//'
@@ -12,8 +10,8 @@
         'name': 'comment.line.double-slash.avdl'
     }
     {
-        'begin': '\/\*'
-        'end': '\*\/'
-        'name': 'comment.line.block.avdl'
+        'begin': '/\\*'
+        'end': '\\*/'
+        'name': 'comment.block.avdl'
     }
 ]
