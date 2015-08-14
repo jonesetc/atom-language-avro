@@ -1,6 +1,6 @@
 {
   "name": "atom-language-avro",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Syntax highlighting for Apache Avro IDL files",
   "main": "index.coffee",
   "repository": {
