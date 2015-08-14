@@ -24,6 +24,18 @@
         'name': 'storage.type.primitive.avdl'
     }
     {
+        'match': '\\b(?:array)\\b'
+        'name': 'storage.type.array.avdl'
+    }
+    {
+        'match': '\\b(?:union)\\b'
+        'name': 'storage.type.union.avdl'
+    }
+    {
+        'match': '\\b(?:map)\\b'
+        'name': 'storage.type.map.avdl'
+    }
+    {
         'match': '(?<!\\.)\\btrue(?!\\s*:)\\b'
         'name': 'constant.language.boolean.true.avdl'
     }
