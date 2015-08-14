@@ -20,12 +20,28 @@
         'name': 'string.quoted.double.avdl'
     }
     {
+        'match': '\\b(?:boolean|string|bytes|int|float|long|double)\\b'
+        'name': 'storage.type.primitive.avdl'
+    }
+    {
+        'match': '(?<!\\.)\\btrue(?!\\s*:)\\b'
+        'name': 'constant.language.boolean.true.avdl'
+    }
+    {
+        'match': '(?<!\\.)\\bfalse(?!\\s*:)\\b'
+        'name': 'constant.language.boolean.false.avdl'
+    }
+    {
+        'match': '(?<!\\.)\\bnull(?!\\s*:)\\b'
+        'name': 'constant.language.null.avdl'
+    }
+    {
         'match': '\\b(record)\\s+(\\w+(?:\\.\\w*)?)'
         'captures':
             '1':
                 'name': 'storage.type.class.avdl'
             '2':
-                'name': 'entity.name.type.js'
+                'name': 'entity.name.type.avdl'
         'name': 'meta.class.avdl'
     }
 ]
