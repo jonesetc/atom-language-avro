@@ -56,6 +56,10 @@
                 'name': 'entity.name.type.avdl'
         'name': 'meta.class.avdl'
     }
+    {
+        'match': '\\b(?:@aliases)\\b'
+        'name': 'storage.type.aliases.avdl'
+    }
 ]
 # 'repository':
 #     'numbers':
