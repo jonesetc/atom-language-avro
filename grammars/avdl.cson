@@ -57,6 +57,28 @@
         'name': 'meta.class.avdl'
     }
     {
+        'match': '\\b(enum)\\s+(\\w+(?:\\.\\w*)?)'
+        'captures':
+            '1':
+                'name': 'storage.type.enum.avdl'
+            '2':
+                'name': 'entity.name.type.avdl'
+        'name': 'meta.enum.avdl'
+    }
+    {
+        'match': '\\b(protocol)\\s+(\\w+(?:\\.\\w*)?)'
+        'captures':
+            '1':
+                'name': 'storage.type.protocol.avdl'
+            '2':
+                'name': 'entity.name.type.avdl'
+        'name': 'meta.protocol.avdl'
+    }
+    {
+        'match': '\\b(?:@namespace)\\b'
+        'name': 'storage.type.namespace.avdl'
+    }
+    {
         'match': '\\b(?:@aliases)\\b'
         'name': 'storage.type.aliases.avdl'
     }
